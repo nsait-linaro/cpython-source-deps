@@ -6,7 +6,6 @@ environment:
 
 build: off
 build_script:
-- ps: .\build_nmakehlp.ps1
-- ps: C:\projects\cpython-source-deps\build.ps1
+- ps: .\build.ps1
 
 test: off

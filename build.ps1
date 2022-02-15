@@ -11,6 +11,8 @@ Set-Location $PSScriptRoot
 
 Set-Location .\win
 
+nmake -f makefile.vc nmakehlp NATIVE_ARCH=IX86
+
 nmake -f makefile.vc all
 
 
