@@ -14,4 +14,4 @@ Set-Location .\win
 
 nmake -f makefile.vc nmakehlp
 
-
+ls nmakehlp.exe
