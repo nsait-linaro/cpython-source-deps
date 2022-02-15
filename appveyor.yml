@@ -6,7 +6,6 @@ environment:
 
 build: off
 build_script:
-- ps: .\build.ps1
 - ps: .\build_x64.ps1
 
 test: off
