@@ -30,8 +30,6 @@ Set-Location $PSScriptRoot
 
 Set-Location .\win
 
-nmake -f makefile.vc nmakehlp
-
 nmake -f makefile.vc all
 
 
