@@ -10,7 +10,7 @@ build_script:
     $x64param = if ($env:Architecture -eq 'x64') { $true } else { $false }
     $arm64param = if ($env:Architecture -eq 'arm64') { $true } else { $false }
     $vs2008param = if ($env:Compiler -eq 'vs2008') { $true } else { $false }
-    .\build_nmakehlp.ps1 -x64:$true
+    .\build_nmakehlp.ps1
     .\build.ps1 -x64:$x64param -arm64:$arm64param -vs2008:$vs2008param
 
 test: off
